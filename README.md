@@ -1,21 +1,21 @@
-# Nodevar
+# **Nodevar**
 
 Creates objects with steroids.
 
-## Installation
+## **Installation**
 ```
 $ npm install nodevar --save
 ```
 
-## Features
+## **Features**
 * Creating dynamic objects.
 * History of changes in variables.
 * Automatic handling of native methods.
 * Observe changes.
 
-## Usage
+## **Usage**
 
-### History changes
+### **History changes**
 ```js
 var Nodevar = require('nodevar');
 
@@ -32,8 +32,10 @@ console.log(pet.getTrace())
 ]
 */
 ```
+Use `pet.clear()` to clear the history.
 
-### Using native methods
+
+### **Using native methods**
 Full control of the native methods of an object with Nodevar. The `onChage` function is called when there is a state change in the variable, ie it is activated when the `=` operator is used. The `onGet` function is called before displaying the variable `data`.
 
 ```js
@@ -44,7 +46,7 @@ var options = {
     console.log(`Change ${$old} to ${$new}`)
   },
   onGet: function (value) {
-    return `Mi pet is ${value}`;
+    return `My pet is ${value}`;
   }
 }
 
@@ -65,7 +67,7 @@ console.log(pet.getTrace())
 */
 ```
 
-### Observe changes
+### **Observe changes**
 
 Create observable variable.
 ```js
@@ -82,7 +84,7 @@ myvar.unicorn = "pink";   //=> The unicorn is pink color
 For more information [see examples](./examples)
 
 
-## License
+## **License**
 
 **MIT**
 

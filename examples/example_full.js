@@ -6,7 +6,7 @@ var options = {
     console.log(`Change ${$old} to ${$new}`)
   },
   onGet: function (value) {
-    return `Mi pet is ${value}`;
+    return `My pet is ${value}`;
   }
 }
 
