@@ -15,6 +15,14 @@
     "objects",
     "steroids."
   ],
+  "files": [
+    "lib/",
+    "index.js",
+    "LICENSE",
+    "package.json",
+    "README.md",
+    ".gitignore"
+  ],
   "author": "@anlijudavid",
   "license": "MIT",
   "bugs": {
