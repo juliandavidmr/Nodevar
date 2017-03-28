@@ -4,7 +4,7 @@ Creates objects with steroids.
 
 ## **Installation**
 ```
-$ npm install nodevar --save
+$ npm install nodevar --save-dev
 ```
 
 ## **Features**
@@ -81,6 +81,12 @@ myvar.unicorn = "white";  //=> The unicorn is white color
 myvar.unicorn = "pink";   //=> The unicorn is pink color
 ```
 
+Use the method `unwatch` for remove watch. ie:
+```js
+myvar.unwatch('unicorn');
+```
+
+
 For more information [see examples](./examples)
 
 
@@ -91,4 +97,3 @@ For more information [see examples](./examples)
 _By [@juliandavidmr](https://github.com/juliandavidmr)_
 
 Public Domain.
-NO WARRANTY EXPRESSED OR IMPLIED. USE AT YOUR OWN RISK

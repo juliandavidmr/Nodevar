@@ -15,3 +15,11 @@ myvar.watch('unicorn', function (oldval, val) {
 
 myvar.unicorn = "white";
 myvar.unicorn = "pink";
+
+myvar.unwatch('unicorn');
+
+myvar.unicorn = "black";
+
+myvar.unicorn = "black";
+
+myvar.unicorn = "black";

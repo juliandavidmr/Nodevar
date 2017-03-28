@@ -1,10 +1,10 @@
 {
   "name": "nodevar",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Creates objects with steroids.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": ""
   },
   "repository": {
     "type": "git",
